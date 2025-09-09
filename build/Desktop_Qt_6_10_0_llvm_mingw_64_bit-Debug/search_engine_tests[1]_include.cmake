@@ -1,0 +1,5 @@
+if(EXISTS "C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/search_engine_tests[1]_tests.cmake")
+  include("C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/search_engine_tests[1]_tests.cmake")
+else()
+  add_test(search_engine_tests_NOT_BUILT search_engine_tests_NOT_BUILT)
+endif()
