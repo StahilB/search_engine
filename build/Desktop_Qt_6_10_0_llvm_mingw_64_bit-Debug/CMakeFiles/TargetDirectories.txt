@@ -1,6 +1,3 @@
-C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/engine_lib.dir
-C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/search_engine.dir
-C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/search_engine_tests.dir
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/test.dir
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/edit_cache.dir
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/CMakeFiles/rebuild_cache.dir
@@ -40,3 +37,20 @@ C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/_deps/goo
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/_deps/googletest-build/googletest/CMakeFiles/install.dir
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
 C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/engine_lib.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/search_engine_app.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/test.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/edit_cache.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/rebuild_cache.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/list_install_components.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/install.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/install/local.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/src/CMakeFiles/install/strip.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/search_engine_tests.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/test.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/edit_cache.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/rebuild_cache.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/list_install_components.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/install.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/install/local.dir
+C:/repos/search_engine/build/Desktop_Qt_6_10_0_llvm_mingw_64_bit-Debug/tests/CMakeFiles/install/strip.dir

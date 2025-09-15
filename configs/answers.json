@@ -14,8 +14,16 @@
       "result": "true"
     },
     "request002": {
-      "docid": 0,
-      "rank": 1.0,
+      "relevance": [
+        {
+          "docid": 1,
+          "rank": 1.0
+        },
+        {
+          "docid": 0,
+          "rank": 0.5
+        }
+      ],
       "result": "true"
     },
     "request003": {

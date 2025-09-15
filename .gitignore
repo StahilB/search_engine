@@ -1,0 +1,27 @@
+# Build and IDE files
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt Creator
+*.user
+*.pro.user
+*.autosave
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+
+# Logs
+*.log
+
+# Other
+.idea/
+.vscode/

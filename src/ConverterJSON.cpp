@@ -1,8 +1,14 @@
+#ifndef PROJ_SOURCE_DIR
+#define PROJ_SOURCE_DIR "."
+#endif
+
 #include "ConverterJSON.h"
 #include "utils.h"
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
+#include <filesystem>
+namespace fs = std::filesystem;
 #include <map>
 
 #include <nlohmann/json.hpp>
@@ -34,15 +40,21 @@ std::vector<std::string> ConverterJSON::GetTextDocuments() {
     std::vector<std::string> docs;
     if (j.contains("files") && j.at("files").is_array()) {
         for (auto& p : j.at("files")) {
-            std::string path = p.get<std::string>();
+            std::string rel = p.get<std::string>();
+            fs::path path = rel;
+
+            if (path.is_relative()) {
+                path = fs::path(PROJ_SOURCE_DIR) / path;
+            }
+
             std::ifstream in(path);
             if (!in.is_open()) {
-                std::cerr << "ERROR: file not found: " << path << std::endl;
+                std::cerr << "ERROR: file not found: " << path.string() << std::endl;
                 docs.emplace_back("");
                 continue;
             }
             std::string content((std::istreambuf_iterator<char>(in)),
-                                 std::istreambuf_iterator<char>());
+                                std::istreambuf_iterator<char>());
             in.close();
             docs.push_back(to_lower_copy(content));
         }

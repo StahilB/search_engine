@@ -40,146 +40,6 @@ include CMakeFiles\rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\
-# =============================================================================
-# Object build statements for EXECUTABLE target search_engine
-
-
-#############################################
-# Order-only phony target for search_engine
-
-build cmake_object_order_depends_target_search_engine: phony || .
-
-build CMakeFiles\search_engine.dir\src\ConverterJSON.cpp.obj: CXX_COMPILER__search_engine_unscanned_Debug C$:\repos\search_engine\src\ConverterJSON.cpp || cmake_object_order_depends_target_search_engine
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
-  OBJECT_DIR = CMakeFiles\search_engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine.dir\
-  TARGET_PDB = search_engine.pdb
-
-build CMakeFiles\search_engine.dir\src\InvertedIndex.cpp.obj: CXX_COMPILER__search_engine_unscanned_Debug C$:\repos\search_engine\src\InvertedIndex.cpp || cmake_object_order_depends_target_search_engine
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
-  OBJECT_DIR = CMakeFiles\search_engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine.dir\
-  TARGET_PDB = search_engine.pdb
-
-build CMakeFiles\search_engine.dir\src\SearchServer.cpp.obj: CXX_COMPILER__search_engine_unscanned_Debug C$:\repos\search_engine\src\SearchServer.cpp || cmake_object_order_depends_target_search_engine
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
-  OBJECT_DIR = CMakeFiles\search_engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine.dir\
-  TARGET_PDB = search_engine.pdb
-
-build CMakeFiles\search_engine.dir\src\main.cpp.obj: CXX_COMPILER__search_engine_unscanned_Debug C$:\repos\search_engine\src\main.cpp || cmake_object_order_depends_target_search_engine
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
-  OBJECT_DIR = CMakeFiles\search_engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine.dir\
-  TARGET_PDB = search_engine.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target search_engine
-
-
-#############################################
-# Link the executable search_engine.exe
-
-build search_engine.exe: CXX_EXECUTABLE_LINKER__search_engine_Debug CMakeFiles\search_engine.dir\src\ConverterJSON.cpp.obj CMakeFiles\search_engine.dir\src\InvertedIndex.cpp.obj CMakeFiles\search_engine.dir\src\SearchServer.cpp.obj CMakeFiles\search_engine.dir\src\main.cpp.obj
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\search_engine.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine.dir\
-  TARGET_FILE = search_engine.exe
-  TARGET_IMPLIB = search_engine.lib
-  TARGET_PDB = search_engine.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target search_engine_tests
-
-
-#############################################
-# Order-only phony target for search_engine_tests
-
-build cmake_object_order_depends_target_search_engine_tests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
-
-build CMakeFiles\search_engine_tests.dir\tests\tests.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\tests\tests.cpp || cmake_object_order_depends_target_search_engine_tests
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine_tests.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_PDB = search_engine_tests.pdb
-
-build CMakeFiles\search_engine_tests.dir\src\ConverterJSON.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\src\ConverterJSON.cpp || cmake_object_order_depends_target_search_engine_tests
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine_tests.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_PDB = search_engine_tests.pdb
-
-build CMakeFiles\search_engine_tests.dir\src\InvertedIndex.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\src\InvertedIndex.cpp || cmake_object_order_depends_target_search_engine_tests
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine_tests.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_PDB = search_engine_tests.pdb
-
-build CMakeFiles\search_engine_tests.dir\src\SearchServer.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\src\SearchServer.cpp || cmake_object_order_depends_target_search_engine_tests
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine_tests.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_PDB = search_engine_tests.pdb
-
-build CMakeFiles\search_engine_tests.dir\src\main.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\src\main.cpp || cmake_object_order_depends_target_search_engine_tests
-  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -IC:\repos\search_engine\src -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\search_engine_tests.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_PDB = search_engine_tests.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target search_engine_tests
-
-
-#############################################
-# Link the executable search_engine_tests.exe
-
-build search_engine_tests.exe search_engine_tests[1]_tests.cmake | ${cmake_ninja_workdir}search_engine_tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__search_engine_tests_Debug CMakeFiles\search_engine_tests.dir\tests\tests.cpp.obj CMakeFiles\search_engine_tests.dir\src\ConverterJSON.cpp.obj CMakeFiles\search_engine_tests.dir\src\InvertedIndex.cpp.obj CMakeFiles\search_engine_tests.dir\src\SearchServer.cpp.obj CMakeFiles\search_engine_tests.dir\src\main.cpp.obj | lib\gtest_maind.lib lib\gtestd.lib || lib\gtest_maind.lib lib\gtestd.lib
-  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = lib\gtest_maind.lib  lib\gtestd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\search_engine_tests.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -D TEST_TARGET=search_engine_tests -D TEST_EXECUTABLE=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/search_engine_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=search_engine_tests_TESTS -D CTEST_FILE=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/search_engine_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GoogleTestAddTests.cmake"
-  PRE_LINK = cd .
-  RESTAT = 1
-  TARGET_COMPILE_PDB = CMakeFiles\search_engine_tests.dir\
-  TARGET_FILE = search_engine_tests.exe
-  TARGET_IMPLIB = search_engine_tests.lib
-  TARGET_PDB = search_engine_tests.pdb
-
 
 #############################################
 # Utility command for test
@@ -702,7 +562,284 @@ build _deps\googletest-build\googletest\CMakeFiles\install\local.util: CUSTOM_CO
 build _deps\googletest-build\googletest\install\local: phony _deps\googletest-build\googletest\CMakeFiles\install\local.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/repos/search_engine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target engine_lib
+
+
+#############################################
+# Order-only phony target for engine_lib
+
+build cmake_object_order_depends_target_engine_lib: phony || .
+
+build src\CMakeFiles\engine_lib.dir\ConverterJSON.cpp.obj: CXX_COMPILER__engine_lib_unscanned_Debug C$:\repos\search_engine\src\ConverterJSON.cpp || cmake_object_order_depends_target_engine_lib
+  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
+  INCLUDES = -IC:\repos\search_engine\include -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
+  OBJECT_DIR = src\CMakeFiles\engine_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\engine_lib.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\engine_lib.dir\engine_lib.pdb
+  TARGET_PDB = src\engine_lib.pdb
+
+build src\CMakeFiles\engine_lib.dir\InvertedIndex.cpp.obj: CXX_COMPILER__engine_lib_unscanned_Debug C$:\repos\search_engine\src\InvertedIndex.cpp || cmake_object_order_depends_target_engine_lib
+  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
+  INCLUDES = -IC:\repos\search_engine\include -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
+  OBJECT_DIR = src\CMakeFiles\engine_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\engine_lib.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\engine_lib.dir\engine_lib.pdb
+  TARGET_PDB = src\engine_lib.pdb
+
+build src\CMakeFiles\engine_lib.dir\SearchServer.cpp.obj: CXX_COMPILER__engine_lib_unscanned_Debug C$:\repos\search_engine\src\SearchServer.cpp || cmake_object_order_depends_target_engine_lib
+  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
+  INCLUDES = -IC:\repos\search_engine\include -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
+  OBJECT_DIR = src\CMakeFiles\engine_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\engine_lib.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\engine_lib.dir\engine_lib.pdb
+  TARGET_PDB = src\engine_lib.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target engine_lib
+
+
+#############################################
+# Link the static library src\engine_lib.lib
+
+build src\engine_lib.lib: CXX_STATIC_LIBRARY_LINKER__engine_lib_Debug src\CMakeFiles\engine_lib.dir\ConverterJSON.cpp.obj src\CMakeFiles\engine_lib.dir\InvertedIndex.cpp.obj src\CMakeFiles\engine_lib.dir\SearchServer.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = src\CMakeFiles\engine_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\CMakeFiles\engine_lib.dir\engine_lib.pdb
+  TARGET_FILE = src\engine_lib.lib
+  TARGET_PDB = src\engine_lib.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target search_engine_app
+
+
+#############################################
+# Order-only phony target for search_engine_app
+
+build cmake_object_order_depends_target_search_engine_app: phony || cmake_object_order_depends_target_engine_lib
+
+build src\CMakeFiles\search_engine_app.dir\main.cpp.obj: CXX_COMPILER__search_engine_app_unscanned_Debug C$:\repos\search_engine\src\main.cpp || cmake_object_order_depends_target_search_engine_app
+  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
+  INCLUDES = -IC:\repos\search_engine\include -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include
+  OBJECT_DIR = src\CMakeFiles\search_engine_app.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\search_engine_app.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\search_engine_app.dir\
+  TARGET_PDB = src\search_engine_app.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target search_engine_app
+
+
+#############################################
+# Link the executable src\search_engine_app.exe
+
+build src\search_engine_app.exe: CXX_EXECUTABLE_LINKER__search_engine_app_Debug src\CMakeFiles\search_engine_app.dir\main.cpp.obj | src\engine_lib.lib || src\engine_lib.lib
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = src\engine_lib.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = src\CMakeFiles\search_engine_app.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\CMakeFiles\search_engine_app.dir\
+  TARGET_FILE = src\search_engine_app.exe
+  TARGET_IMPLIB = src\search_engine_app.lib
+  TARGET_PDB = src\search_engine_app.pdb
+
+
+#############################################
+# Utility command for test
+
+build src\CMakeFiles\test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\src && C:\Qt\Tools\CMake_64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build src\test: phony src\CMakeFiles\test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\src && C:\Qt\Tools\CMake_64\bin\cmake-gui.exe -SC:\repos\search_engine -BC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src\edit_cache: phony src\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\src && C:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\repos\search_engine -BC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\rebuild_cache: phony src\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src\CMakeFiles\install.util: CUSTOM_COMMAND src\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\src && C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src\install: phony src\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src\CMakeFiles\install\local.util: CUSTOM_COMMAND src\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\src && C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src\install\local: phony src\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/repos/search_engine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target search_engine_tests
+
+
+#############################################
+# Order-only phony target for search_engine_tests
+
+build cmake_object_order_depends_target_search_engine_tests: phony || cmake_object_order_depends_target_engine_lib cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build tests\CMakeFiles\search_engine_tests.dir\tests.cpp.obj: CXX_COMPILER__search_engine_tests_unscanned_Debug C$:\repos\search_engine\tests\tests.cpp || cmake_object_order_depends_target_search_engine_tests
+  DEFINES = -DPROJ_SOURCE_DIR=\"C:/repos/search_engine\"
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
+  INCLUDES = -IC:\repos\search_engine\include -IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\nlohmann_json-src\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest\include -external:IC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\_deps\googletest-src\googletest -external:W0
+  OBJECT_DIR = tests\CMakeFiles\search_engine_tests.dir
+  OBJECT_FILE_DIR = tests\CMakeFiles\search_engine_tests.dir
+  TARGET_COMPILE_PDB = tests\CMakeFiles\search_engine_tests.dir\
+  TARGET_PDB = tests\search_engine_tests.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target search_engine_tests
+
+
+#############################################
+# Link the executable tests\search_engine_tests.exe
+
+build tests\search_engine_tests.exe tests\search_engine_tests[1]_tests.cmake | ${cmake_ninja_workdir}tests\search_engine_tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__search_engine_tests_Debug tests\CMakeFiles\search_engine_tests.dir\tests.cpp.obj | src\engine_lib.lib lib\gtest_maind.lib lib\gtestd.lib || lib\gtest_maind.lib lib\gtestd.lib src\engine_lib.lib
+  FLAGS = -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = src\engine_lib.lib  lib\gtest_maind.lib  lib\gtestd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = tests\CMakeFiles\search_engine_tests.dir
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\cmake.exe -D TEST_TARGET=search_engine_tests -D TEST_EXECUTABLE=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/tests/search_engine_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=search_engine_tests_TESTS -D CTEST_FILE=C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/tests/search_engine_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GoogleTestAddTests.cmake"
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_COMPILE_PDB = tests\CMakeFiles\search_engine_tests.dir\
+  TARGET_FILE = tests\search_engine_tests.exe
+  TARGET_IMPLIB = tests\search_engine_tests.lib
+  TARGET_PDB = tests\search_engine_tests.pdb
+
+
+#############################################
+# Utility command for test
+
+build tests\CMakeFiles\test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\ctest.exe --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build tests\test: phony tests\CMakeFiles\test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build tests\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\cmake-gui.exe -SC:\repos\search_engine -BC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build tests\edit_cache: phony tests\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build tests\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\repos\search_engine -BC:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build tests\rebuild_cache: phony tests\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build tests\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build tests\CMakeFiles\install.util: CUSTOM_COMMAND tests\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build tests\install: phony tests\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build tests\CMakeFiles\install\local.util: CUSTOM_COMMAND tests\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\repos\search_engine\build\Desktop_Qt_6_9_2_MSVC2022_64bit-Debug\tests && C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build tests\install\local: phony tests\CMakeFiles\install\local.util
+
+# =============================================================================
 # Target aliases.
+
+build engine_lib: phony src\engine_lib.lib
+
+build engine_lib.lib: phony src\engine_lib.lib
 
 build gmock: phony lib\gmockd.lib
 
@@ -720,9 +857,13 @@ build gtest_maind.lib: phony lib\gtest_maind.lib
 
 build gtestd.lib: phony lib\gtestd.lib
 
-build search_engine: phony search_engine.exe
+build search_engine_app: phony src\search_engine_app.exe
 
-build search_engine_tests: phony search_engine_tests.exe
+build search_engine_app.exe: phony src\search_engine_app.exe
+
+build search_engine_tests: phony tests\search_engine_tests.exe
+
+build search_engine_tests.exe: phony tests\search_engine_tests.exe
 
 # =============================================================================
 # Folder targets.
@@ -732,7 +873,7 @@ build search_engine_tests: phony search_engine_tests.exe
 #############################################
 # Folder: C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug
 
-build all: phony search_engine.exe search_engine_tests.exe _deps\nlohmann_json-build\all _deps\googletest-build\all
+build all: phony _deps\nlohmann_json-build\all _deps\googletest-build\all src\all tests\all
 
 # =============================================================================
 
@@ -763,20 +904,34 @@ build _deps\googletest-build\googletest\all: phony lib\gtestd.lib lib\gtest_main
 build _deps\nlohmann_json-build\all: phony
 
 # =============================================================================
+
+#############################################
+# Folder: C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/src
+
+build src\all: phony src\engine_lib.lib src\search_engine_app.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/repos/search_engine/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/tests
+
+build tests\all: phony tests\search_engine_tests.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | .qtc\package-manager\auto-setup.cmake .qtc\package-manager\maintenance_tool_provider.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeNinjaFindMake.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython\Support.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GoogleTest.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\repos\search_engine\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake _deps\nlohmann_json-src\CMakeLists.txt _deps\nlohmann_json-src\cmake\config.cmake.in _deps\nlohmann_json-src\cmake\nlohmann_jsonConfigVersion.cmake.in _deps\nlohmann_json-src\cmake\pkg-config.pc.in
+build build.ninja: RERUN_CMAKE | .qtc\package-manager\auto-setup.cmake .qtc\package-manager\maintenance_tool_provider.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython\Support.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GoogleTest.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\repos\search_engine\CMakeLists.txt C$:\repos\search_engine\src\CMakeLists.txt C$:\repos\search_engine\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake _deps\nlohmann_json-src\CMakeLists.txt _deps\nlohmann_json-src\cmake\config.cmake.in _deps\nlohmann_json-src\cmake\nlohmann_jsonConfigVersion.cmake.in _deps\nlohmann_json-src\cmake\pkg-config.pc.in
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build .qtc\package-manager\auto-setup.cmake .qtc\package-manager\maintenance_tool_provider.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeNinjaFindMake.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython\Support.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GoogleTest.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\repos\search_engine\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake _deps\nlohmann_json-src\CMakeLists.txt _deps\nlohmann_json-src\cmake\config.cmake.in _deps\nlohmann_json-src\cmake\nlohmann_jsonConfigVersion.cmake.in _deps\nlohmann_json-src\cmake\pkg-config.pc.in: phony
+build .qtc\package-manager\auto-setup.cmake .qtc\package-manager\maintenance_tool_provider.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\FindPython\Support.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\GoogleTest.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\repos\search_engine\CMakeLists.txt C$:\repos\search_engine\src\CMakeLists.txt C$:\repos\search_engine\tests\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake _deps\googletest-src\CMakeLists.txt _deps\googletest-src\googlemock\CMakeLists.txt _deps\googletest-src\googlemock\cmake\gmock.pc.in _deps\googletest-src\googlemock\cmake\gmock_main.pc.in _deps\googletest-src\googletest\CMakeLists.txt _deps\googletest-src\googletest\cmake\Config.cmake.in _deps\googletest-src\googletest\cmake\gtest.pc.in _deps\googletest-src\googletest\cmake\gtest_main.pc.in _deps\googletest-src\googletest\cmake\internal_utils.cmake _deps\nlohmann_json-src\CMakeLists.txt _deps\nlohmann_json-src\cmake\config.cmake.in _deps\nlohmann_json-src\cmake\nlohmann_jsonConfigVersion.cmake.in _deps\nlohmann_json-src\cmake\pkg-config.pc.in: phony
 
 
 #############################################
